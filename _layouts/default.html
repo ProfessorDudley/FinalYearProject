@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+
 			<title>{{ page.title }}</title>
+
+			<!-- External files -->
+			<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+			<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/Munchkin/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
 		</head>
-		<body>
-			<header>
-			<nav>
-				<ul>
-				<li><a href="/Munchkin">Project</a></li>
-				<li><a href="/Munchkin/blog">Blog</a></li>
-	    			</ul>
-			</nav
-			
-			<div class="headerBanner">
-				{{ page.title }}
-			</div>
-			</header>
-			
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+		<body class="container-fluid">
+			<nav class="row justify-content-center fixed-top">
+				<ul class="col-5">
+					<li><a href="/">Project</a></li>
+					<li><a href="/blog">Blog</a></li>
 				</ul>
+				<ul class="col-5 float-end">
+					<li><a href="/" class="button">Website</a></li>
+					<li><a href="https://github.com/ProfessorDudley/Munchkin" class="button">View on GitHub</a></li>
+				</ul>
+			</nav>
+			<header class="row justify-content-center" style="background-image: url({{ page.cover }})">
+				<h1 class="col-9">{{ page.title }}</h1>
+				<h2 class="col-9">{{ page.subtitle}}</h2>
+			</header>
+
+			<section class="row justify-content-center">
+				<article class="col-6">
+					{{ page.content }}
+				</article>
+			</section>
+			<footer class="row justify-content-center">
+				<ul class="col-2">
+					<h6>Links</h6>
+					<li><a href="/">Home</a></li>
+					<li><a href="https://github.com/ProfessorDudley/Munchkin">View the Project Online</a></li>
+				</ul>
+				<ul class="col-2">
+					<!-- <h6>Recent Posts</h6>
+					<li><a href="/">Home</a></li>
+					<li><a href="https://github.com/ProfessorDudley/Munchkin">View the Project Online</a></li> -->
+				</ul>
+				<div class="col-2">
+					<!-- <p>
+						This is where my game copyright should go
+					</p> -->
+					<p>
+						Copyright © 2019 Samuel Dicken.
+						<br>
+						Made with Bootstrap 4, Jekyll & ♥︎.
+						<br>
+						Hosted on GitHub Pages.
+					</p>
+				</div>
 			</footer>
 		</body>
 	</html>
