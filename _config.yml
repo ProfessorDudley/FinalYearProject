@@ -1,2 +1,10 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
+
+defaults:
+- scope:
+    path: /Munchkin
+    type: docs
+  values:
+    layout: docs
+
