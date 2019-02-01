@@ -1,3 +1,4 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
 site.url: http://professordudley.github.io
+permalink: /blog/:year/:month/:day/:title
