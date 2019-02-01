@@ -1,4 +1,3 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
-permalink: /:year/:month/:day/:title
-site.url:  http://professordudley.github.io/Munchkin
+site.url: http://professordudley.github.io/Munchkin
