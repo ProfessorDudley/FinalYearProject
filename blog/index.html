@@ -5,10 +5,13 @@ subtitle: The Blog to beat other all blogs!
 cover: images/map.jpg
 ---
 
-<h3>{{ page.title }}</h3>
+<h3>All Posts</h3>
+
 	<ul class="posts">
 
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="/Munchkin{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
+
+		<!-- Design a box for a preview section -->
 	</ul>
