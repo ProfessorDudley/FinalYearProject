@@ -9,21 +9,21 @@
 			<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="css/main.css">
+			<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/main.css">
 
 		</head>
 		<body class="container-fluid">
 			<nav class="row justify-content-center fixed-top">
 				<ul class="col-5">
-					<li><a href="/Munchkin/">Project</a></li>
-					<li><a href="/Munchkin/blog">Blog</a></li>
+					<li><a href="{{ site.url }}/">Project</a></li>
+					<li><a href="{{ site.url }}/blog">Blog</a></li>
 				</ul>
 				<ul class="col-5 float-end">
 					<li><a href="/" class="button">Website</a></li>
 					<li><a href="https://github.com/ProfessorDudley/Munchkin" class="button">View on GitHub</a></li>
 				</ul>
 			</nav>
-			<header class="row justify-content-center" style="background-image: url(/Munchkin/{{ page.cover }})">
+			<header class="row justify-content-center" style="background-image: url({{ site.url }}/{{ page.cover }})">
 				<h1 class="col-9">{{ page.title }}</h1>
 				<h2 class="col-9">{{ page.subtitle}}</h2>
 			</header>
@@ -37,13 +37,13 @@
 				<ul class="col-2">
 					<h6>Links</h6>
 					<li><a href="/">Home</a></li>
-					<li><a href="https://github.com/ProfessorDudley/Munchkin">View the Project Online</a></li>
+					<li><a href="https://professordudley.github.io/Munchkin/">View the Project Online</a></li>
 				</ul>
-				<ul class="col-2">
+				<!-- <ul class="col-2">
 					<h6>Recent Posts</h6>
 					<li><a href="/">Home</a></li>
-					<li><a href="https://github.com/ProfessorDudley/Munchkin">View the Project Online</a></li>
-				</ul>
+					<li><a href="https://professordudley.github.io/Munchkin/">View the Project Online</a></li>
+				</ul> -->
 				<div class="col-2">
 					<!-- <p>
 						This is where my game copyright should go
