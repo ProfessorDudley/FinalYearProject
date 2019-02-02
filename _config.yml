@@ -1,5 +1,6 @@
 name: Sam Dicken
 markdown: kramdown
-site.url: http://professordudley.github.io/Munchkin
-baseurl: http://professordudley.github.io/Munchkin
+site.url: http://professordudley.github.io/Munchkin/
+baseurl: http://professordudley.github.io/Munchkin/
+domain: http://professordudley.github.io/Munchkin/
 permalink: /blog/:year/:month/:day/:title
