@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "I manage to make a real post as a test"
 date: 2014-04-30
 ---
 
