@@ -4,36 +4,42 @@ body {
 
 nav ul {
   margin: 0 auto;
+  padding: 0px;
   line-height: 4em;
   font-size: 24px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
+  margin-top: -200px;
 }
 nav ul li {
   display: inline;
-  padding-right: 32px;
 }
 
-nav ul li a, footer ul li a {
-  color: rgb(161, 161, 161);
+nav ul li a {
+  color: rgb(255, 255, 255);
 }
 nav ul li a:hover, footer ul li a:hover {
     text-decoration: none;
     color: rgb(40, 106, 205);
 }
 
+.float-start {
+  text-align: left;
+}
+.float-start ul li {
+  margin-right: 32px;
+}
 .float-end {
   text-align: right;
-  padding-right: 0px;
-  padding-left: 20px;
 }
 
 .button {
   border: 3px solid rgb(213, 213, 213);
   border-radius: 6px;
-  background-color: rgba(255, 255, 255,0.4);
+  background-color: rgba(200, 200, 200, 0.4);
   padding: 0.5em;
-  color: rgb(50, 50, 50);
+  color: rgb(213, 213, 213);
+  margin-left: 15px;
 }
 .button:hover {
   border-color: rgb(40, 106, 205);
@@ -44,6 +50,10 @@ header {
   color: rgba(255, 255, 255, 1);
   padding-top: 240px;
   padding-bottom: 120px;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgb(94, 94, 94);
+  background-blend-mode: overlay;
 }
 
 h1 {
@@ -74,7 +84,6 @@ h6 {
   font-weight: 700;
   line-height: 2em;
   margin-bottom: 20px;
-  margin-top: 20px;
 }
 
 section {
@@ -98,6 +107,9 @@ footer div p {
   font-size: 18px;
 }
 
+footer ul li a {
+  color: rgb(120, 120, 120);
+}
 
 p {
   text-align: justify;
