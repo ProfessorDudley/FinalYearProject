@@ -5,16 +5,4 @@ layout: default
   {{ content }}
 </div>
 
-<ul class="meta">
-  <li>{{ page.date | date_to_string }}</li>
-  <li>•</li>
-  <li>{{ page.excerpt | remove: '<p>' | remove: '</p>' | number_of_words }} words</li>
-</ul>
-
-<ul class="meta">
-  {% for tag in page.tags %}
-    <li class="post-tag">
-      {{ tag }}
-    </li>
-  {% endfor %}
-</ul>
+{% include meta.html %}

@@ -1,0 +1,15 @@
+<ul class="meta">
+  <li>{{ page.date | date_to_string }}</li>
+  <li>•</li>
+  <li>{{ page.content | remove: '<p>' | remove: '</p>' | number_of_words }} words</li>
+  <li>•</li>
+  <li>{{  page.content | remove: '<p>' | remove: '</p>' | number_of_words | divided_by: 120 }} minute read</li>
+</ul>
+
+<ul class="meta">
+  {% for tag in page.tags %}
+    <li class="post-tag">
+      {{ tag }}
+    </li>
+  {% endfor %}
+</ul>

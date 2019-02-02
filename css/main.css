@@ -72,10 +72,11 @@ h2 {
 }
 
 h3 {
-  font-family: 'Noto Serif SC', sans-serif;
+  font-family: 'Noto Serif SC', serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 1.4em;
+  color: rgb(120, 120, 120);
 }
 
 h6 {
@@ -122,6 +123,25 @@ p {
 .posts {
   list-style: none;
   font-size: 20px;
+  padding-left: 0px;
+}
+.posts li a {
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: rgb(33, 37, 41);
+}
+.posts li a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.posts-list-entry {
+  border-top: 2px solid rgb(179, 179, 179);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.posts-list-entry li {
 }
 
 .meta {
@@ -133,6 +153,7 @@ p {
 .meta li {
   display: inline-block;
   margin-right: 0.4em;
+  font-size: 18px;
 }
 .post-tag {
   border-radius: 8px;
