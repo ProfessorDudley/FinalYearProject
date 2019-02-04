@@ -1,21 +1,5 @@
-<header class="row" style="background-image: url(/{{ page.cover }})">
-  <div class="col-xs-12">
-    <nav class="site-navigation">
-      <ul>
-        <li><a href="/_site/">Project</a></li>
-        <li><a href="blog">Blog</a></li>
-      </ul>
-    </nav>
-  </div>
-
-  <div class="col-xs-12">
-    <nav class="button-navigation">
-      <ul>
-        <li><a href="https://samueldicken.com">Portfolio</a></li>
-        <li><a href="https://github.com/ProfessorDudley/Munchkin/">View on GitHub</a></li>
-      </ul>
-    </nav>
-  </div>
+<header class="row paroller" style="background-image: url(/{{ page.cover }})" data-paroller-factor="0.5" data-paroller-factor-sm="0.2" data-paroller-factor-xs="0.2">
+  {% include navigation.html %}
 
   <div class="col-xs-12 heading">
     <h1>{{ page.title }}</h1>
