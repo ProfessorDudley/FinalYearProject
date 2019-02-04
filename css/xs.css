@@ -40,7 +40,7 @@
 }
 body {
   background-color: #ffffff;
-  margin-top: -20px;
+  margin-top: -50px;
 }
 .site-navigation {
   display: block;
@@ -110,8 +110,8 @@ header {
   background-blend-mode: overlay;
 }
 .row {
-  padding: 0 8%;
-  margin: 20px -15px;
+  padding: 0 4%;
+  margin: 50px -15px;
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -126,7 +126,7 @@ p {
   font-weight: 400;
   line-height: 1.2em;
   letter-spacing: 0.1em;
-  margin: 0.2em 0 1em;
+  margin: 0;
   color: #212529;
 }
 .page-content h4 {
@@ -188,7 +188,7 @@ footer ul li a:hover {
 .posts .posts-list-entry a:hover {
   color: #4f4f4f;
 }
-.posts .meta {
+.meta {
   list-style: none;
   padding-left: 0px;
   font-family: 'Lato', sans-serif;
@@ -197,14 +197,15 @@ footer ul li a:hover {
   line-height: 2em;
   text-align: left;
 }
-.posts .meta .post-tag {
+.meta .post-tag {
+  border: 1px solid #212529;
   border-radius: 5px;
-  background-color: #b3b3b3;
-  padding: 0px 0.4em;
+  background-color: #ffffff;
+  padding: 0 0.8em;
   color: #323232;
   margin: 0.2em 0.3em 0.2em 0em;
 }
-.posts .meta li {
+.meta li {
   display: inline-block;
   margin-right: 0.4em;
 }

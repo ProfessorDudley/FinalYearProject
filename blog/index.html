@@ -11,11 +11,11 @@ cover: images/map.jpg
 
 	  {% for post in site.posts %}
 		<div class="posts-list-entry">
-	    <h3><a href="/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+	    <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
 			<p>
 				{{ post.excerpt }}
 			<br>
-			<a href="/_site{{ post.url }}"> read more...</a>
+			<a href="{{ post.url }}"> read more...</a>
 			</p>
 
 			<ul class="meta">
@@ -36,5 +36,4 @@ cover: images/map.jpg
 		</div>
 	  {% endfor %}
 
-		<!-- Design a box for a preview section -->
 	</ul>

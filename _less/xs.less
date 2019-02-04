@@ -3,6 +3,7 @@
 @clHeading: rgb(255, 255, 255);
 @clContentHeading: rgb(33, 37, 41);
 @clLabel: rgb(130, 130, 130);
+@varRowMargin: 50px;
 
 // Fonts
 #fn-page-heading {
@@ -57,7 +58,7 @@
 
 body {
   background-color: @clPage;
-  margin-top: -20px;
+  margin-top: -@varRowMargin;
 }
 
 .site-navigation {
@@ -115,8 +116,8 @@ header {
 }
 
 .row {
-  padding: 0 8%;
-  margin: 20px -15px;
+  padding: 0 4%;
+  margin: @varRowMargin -15px;
 }
 
 p {
@@ -130,7 +131,7 @@ p {
     font-weight: 400;
     line-height: 1.2em;
     letter-spacing: 0.1em;
-    margin: 0.2em 0 1em;
+    margin: 0;
     color: @clContentHeading;
   }
   h4 {
@@ -186,20 +187,21 @@ footer {
       #mx-no-link(@clLabel);
     }
   }
-  .meta {
-    list-style: none;
-    padding-left: 0px;
-    #fn-meta;
-    .post-tag {
-      border-radius: 5px;
-      background-color: rgb(179, 179, 179);
-      padding: 0px 0.4em;
-      color: rgb(50, 50, 50);
-      margin: 0.2em 0.3em 0.2em 0em;
-    }
-    li {
-      display: inline-block;
-      margin-right: 0.4em;
-    }
+}
+.meta {
+  list-style: none;
+  padding-left: 0px;
+  #fn-meta;
+  .post-tag {
+    border: 1px solid @clContentHeading;
+    border-radius: 5px;
+    background-color: @clPage;
+    padding: 0 0.8em;
+    color: rgb(50, 50, 50);
+    margin: 0.2em 0.3em 0.2em 0em;
+  }
+  li {
+    display: inline-block;
+    margin-right: 0.4em;
   }
 }
