@@ -2,11 +2,6 @@
 	<html>
 		<head>
 
-			<!-- Metadata -->
-			<meta charset="UTF-8">
-			<meta lang="en">
-			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 			<title>{{ page.title }}</title>
 
 			<!-- External files -->
@@ -20,32 +15,41 @@
 
 		</head>
 		<body class="container-fluid">
-			<!-- header -->
-			{% include page-header.html %}
+			<header class="row justify-content-center" style="background-image: url(/{{ page.cover }})">
+				<nav class="col-4 float-start">
+					<ul>
+						<li><a href="/" class="navigation">Project</a></li>
+						<li><a href="/blog" class="navigation">Blog</a></li>
+					</ul>
+				</nav>
+				<nav class="col-4 float-end">
+					<ul>
+						<li><a href="https://samueldicken.com" class="button">Portfolio</a></li>
+						<li><a href="https://github.com/ProfessorDudley/Munchkin/" class="button">View on GitHub</a></li>
+					</ul>
+				</nav>
+				<h1 class="col-8">{{ page.title }}</h1>
+				<h2 class="col-8">{{ page.subtitle}}</h2>
+			</header>
 
-			<!-- section -->
 			<section class="row justify-content-center">
-				<article class="col-xs-12">
+				<article class="col-6">
 					{{ content }}
 				</article>
 			</section>
-
-			<!-- footer -->
-			<footer class="row justify-content-start">
-				<ul class="col-xs-12">
+			<footer class="row justify-content-center">
+				<ul class="col-2">
 					<h6>Links</h6>
 					<li><a href="https://professordudley.github.io/Munchkin/">Home</a></li>
 					<li><a href="https://github.com/ProfessorDudley/Munchkin/">View on GitHub</a></li>
 					<li><a href="https://samueldicken.com">Portfolio</a></li>
-					<li><a href="/_site/index.html">Load</a></li>
 				</ul>
-				 <ul class="col-xs-12">
+				 <ul class="col-2">
 					<!--<h6>Recent Posts</h6>
 					<li><a href="/">Home</a></li>
 					<li><a href="https://professordudley.github.io/Munchkin/">View the Project Online</a></li>-->
 				</ul>
-
-				<div class="col-xs-12">
+				<div class="col-2">
 					<p>
 					<i>"Overcomplicating things for the sake of simplicity"</i>
 					<br>
