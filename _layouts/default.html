@@ -2,6 +2,11 @@
 	<html>
 		<head>
 
+			<!-- Metadata -->
+			<meta charset="UTF-8">
+			<meta lang="en">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 			<title>{{ page.title }}</title>
 
 			<!-- External files -->
@@ -11,58 +16,56 @@
 
 
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/Munchkin/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/Munchkin/css/xs.css">
+			<link rel="stylesheet" type="text/css" href="/Munchkin/css/sm.css" media="(min-width: 576px)">
+			<link rel="stylesheet" type="text/css" href="/Munchkin/css/md.css" media="(min-width: 768px)">
+			<link rel="stylesheet" type="text/css" href="/Munchkin/css/lg.css" media="(min-width: 992px)">
+			<!-- <link rel="stylesheet" type="text/css" href="/css/xl.css" media="(min-width: 1200px)"> -->
 
 		</head>
 		<body class="container-fluid">
-			<header class="row justify-content-center" style="background-image: url(/Munchkin/{{ page.cover }})">
-				<nav class="col-4 float-start">
-					<ul>
-						<li><a href="/Munchkin/" class="navigation">Project</a></li>
-						<li><a href="/Munchkin/blog" class="navigation">Blog</a></li>
-					</ul>
-				</nav>
-				<nav class="col-4 float-end">
-					<ul>
-						<li><a href="https://samueldicken.com" class="button">Portfolio</a></li>
-						<li><a href="https://github.com/ProfessorDudley/Munchkin/" class="button">View on GitHub</a></li>
-					</ul>
-				</nav>
-				<h1 class="col-8">{{ page.title }}</h1>
-				<h2 class="col-8">{{ page.subtitle}}</h2>
-			</header>
+			<!-- header -->
+			{% include page-header.html %}
 
+			<!-- section -->
 			<section class="row justify-content-center">
-				<article class="col-6">
+				<article class="col-12 col-md-10 col-lg-9 page-content">
 					{{ content }}
 				</article>
 			</section>
-			<footer class="row justify-content-center">
-				<ul class="col-2">
+
+			<!-- footer -->
+			<footer class="row justify-content-between">
+				<ul class="col-12 col-sm-6 col-md-5 col-lg-4">
 					<h6>Links</h6>
 					<li><a href="https://professordudley.github.io/Munchkin/">Home</a></li>
 					<li><a href="https://github.com/ProfessorDudley/Munchkin/">View on GitHub</a></li>
 					<li><a href="https://samueldicken.com">Portfolio</a></li>
 				</ul>
-				 <ul class="col-2">
-					<!--<h6>Recent Posts</h6>
+				 <ul class="col-12 col-sm-6 col-md-5 col-lg-4">
+					<h6>Recent Posts</h6>
 					<li><a href="/">Home</a></li>
-					<li><a href="https://professordudley.github.io/Munchkin/">View the Project Online</a></li>-->
+					<li><a href="https://professordudley.github.io/Munchkin/">View the Project Online</a></li>
 				</ul>
-				<div class="col-2">
+
+				<div class="col-12 col-md-5 col-lg-4">
 					<p>
 					<i>"Overcomplicating things for the sake of simplicity"</i>
-					<br>
-					Samuel Dicken
 					</p>
 					<p>
 						Copyright © 2019 Samuel Dicken.
 						<br>
-						Made with <a href="https://getbootstrap.com" style="color: rgb(33, 37, 41);">Bootstrap 4</a>, <a href="https://jekyllrb.com" style="color: rgb(33, 37, 41);">Jekyll</a> & ♥︎.
+						Made with <a href="https://getbootstrap.com" style="color: rgb(33, 37, 41);">Bootstrap 4</a>, <a href="https://jekyllrb.com" style="color: rgb(33, 37, 41);">Jekyll</a>, <a href="https://tgomilar.github.io/paroller.js/" style="color: rgb(33, 37, 41);">Paroller.js</a> & ♥︎.
 						<br>
 						Hosted on <a href="https://pages.github.com" style="color: rgb(33, 37, 41);">GitHub <img src="/images/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="" style="height: 1.2em;"></a>.
 					</p>
+					<p>This is a development build. You should not be able to see this!</p>
 				</div>
 			</footer>
+
+			<!-- scripts -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script src="/js/jquery.paroller.min.js"></script>
+			<script>$('.paroller').paroller();</script>
 		</body>
 	</html>

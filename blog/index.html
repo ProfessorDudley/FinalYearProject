@@ -11,15 +11,19 @@ cover: images/map.jpg
 
 	  {% for post in site.posts %}
 		<div class="posts-list-entry">
-	    <li><a href="/Munchkin{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-			<li>{{ post.excerpt }}</li>
+	    <h3><a href="/Munchkin{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+			<p>
+				{{ post.excerpt }}
+			<br>
+			<a href="{{ post.url }}"> read more...</a>
+			</p>
 
 			<ul class="meta">
 		    <li>{{ post.date | date_to_string }}</li>
 		    <li>•</li>
-		    <li>{{ post.excerpt | remove: '<p>' | remove: '</p>' | number_of_words }} words</li>
+		    <li>{{ post.content | remove: '<p>' | remove: '</p>' | number_of_words }} words</li>
 		    <li>•</li>
-				<li>{{  post.excerpt | remove: '<p>' | remove: '</p>' | number_of_words | divided_by: 200 }} minute read</li>
+				<li>{{  post.content | remove: '<p>' | remove: '</p>' | number_of_words | divided_by: 200 }} minute read</li>
 		  </ul>
 
 		  <ul class="meta">
@@ -32,5 +36,4 @@ cover: images/map.jpg
 		</div>
 	  {% endfor %}
 
-		<!-- Design a box for a preview section -->
 	</ul>
