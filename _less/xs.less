@@ -3,12 +3,13 @@
 @clHeading: rgb(255, 255, 255);
 @clContentHeading: rgb(33, 37, 41);
 @clLabel: rgb(130, 130, 130);
+@clHighlight: rgb(3, 75, 170);
 @varRowMargin: 50px;
 
 // Fonts
 #fn-page-heading {
   font-family: 'Lato', sans-serif;
-  font-size: 56px;
+  font-size: 44px;
   font-weight: 700;
   line-height: 1em;
   color: @clHeading;
@@ -38,7 +39,7 @@
 #fn-meta {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 2em;
   text-align: left;
 }
@@ -52,7 +53,8 @@
   color: @color;
   text-decoration: none;
   &:hover {
-    color: darken(@color, 20%);
+    color: tint(@clHighlight, 40%);
+    border-color: tint(@clHighlight, 40%);
   }
 }
 
@@ -63,7 +65,7 @@ body {
 
 .site-navigation {
   display: block;
-  margin-top: 24px;
+  margin-top: 3em;
   ul {
     padding: 0px;
     li {
@@ -79,19 +81,21 @@ body {
 
 .button-navigation {
   display: none;
+  margin-top: 3em;
+  float: right;
   ul {
     padding: 0px;
-  }
-  ul li {
-    #mx-inline-list;
-    border: 3px solid rgb(213, 213, 213);
-    border-radius: 6px;
-    background-color: rgba(200, 200, 200, 0.4);
-    padding: 0.5em;
-    color: rgb(213, 213, 213);
-    margin-left: 15px;
-    &:hover {
-      border-color: rgb(40, 106, 205);
+    li {
+      #mx-inline-list;
+      margin-left: 15px;
+      a {
+        #mx-no-link(@clHeading);
+        border: 3px solid rgb(213, 213, 213);
+        border-radius: 6px;
+        background-color: rgba(200, 200, 200, 0.4);
+        padding: 0.5em;
+        color: rgb(213, 213, 213);
+      }
     }
   }
 }
@@ -107,6 +111,7 @@ body {
 
 header {
   height: 40vh;
+  min-height: 240px;
   margin-bottom: 30px;
   background-size: cover;
   background-position: bottom;
@@ -131,7 +136,7 @@ p {
     font-weight: 400;
     line-height: 1.2em;
     letter-spacing: 0.1em;
-    margin: 0;
+    margin: 0 0 1em;
     color: @clContentHeading;
   }
   h4 {
@@ -188,6 +193,7 @@ footer {
     }
   }
 }
+
 .meta {
   list-style: none;
   padding-left: 0px;
@@ -199,6 +205,7 @@ footer {
     padding: 0 0.8em;
     color: rgb(50, 50, 50);
     margin: 0.2em 0.3em 0.2em 0em;
+    font-weight: 400;
   }
   li {
     display: inline-block;
