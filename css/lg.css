@@ -1,3 +1,6 @@
-.justify-content-between {
-  padding: 10em;
+aside {
+  display: block;
+}
+.post-complement {
+  display: block;
 }
