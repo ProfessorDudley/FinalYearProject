@@ -2,7 +2,6 @@
 layout: default
 ---
 <article class="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-1 page-content">
-	{% for post in site.posts limit:1 %}
 	<div class="post-head">
 		<p class="head-meta">{{ post.date | date_to_string }}</p>
 		<p class="head-meta float-end post-tag">New Post!</p>
@@ -10,8 +9,6 @@ layout: default
 	<h3>{{ post.title }}</h3>
 
 	<p>{{ post.content }}</p>
-
-	{% endfor %}
 </article>
 
 <aside class="col-12 col-md-4 col-lg-3 offset-md-1">
