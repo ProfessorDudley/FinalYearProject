@@ -13,7 +13,7 @@ references:
     link: "https://github.com/SRombauts/UE4GitPlugin"
 ---
 
-### So I was doing some reading up on GitHub...
+#### So I was doing some reading up on GitHub...
 
 I was trying to find out how git can be used with unreal engine. Git encourages [parallel development](https://nvie.com/posts/a-successful-git-branching-model/) using a branch based version control system. What this means is everyone who is collaborating on a project have their own local copies of the project, including all the branches. It isn't possible to lock files for editing like in Perforce or Subversion.
 
