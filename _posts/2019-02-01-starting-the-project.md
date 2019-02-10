@@ -15,7 +15,7 @@ references:
 
 Before starting the second semester I already began prototyping ideas for the project. Particularly I looked into how procedurally generated levels would work in Unreal Engine 4 using blueprints.
 
-The first prototype I developed used <a href="http://pcg.wikidot.com/pcg-algorithm:drunkard-walk">The Drunkard Walk Algorithm</a>. So called because of the random, staggery patterns the algorithm can create.
+The first prototype I developed used [The Drunkard Walk Algorithm](http://pcg.wikidot.com/pcg-algorithm:drunkard-walk). So called because of the random, staggery patterns the algorithm can create.
 In this algorithm a grid is generated and a random cell in that grid. That cell is assigned as a room, and a new cardinal direction is chosen (North, South, East or West). The script then checks if it can move to that cell. If it can, it moves to the cell in that direction and places a new room. This process is repeated as many times as the number of rooms you want to generate. In my project, I had rooms with multiple doors and ran the algorithm on each room generated for each door.
 
 I had this working for the most part, but I realised that there were some issues that could occur later in development. Namely, I struggled to figure out a way of doing the appropriate checks to see if a room would be a valid space. There was also an issue where the room generation would tend to spread out like a tree, forming unnatural feeling dungeons.
@@ -24,6 +24,4 @@ Due to these reasons, I retooled the algorithm. In the second version the dungeo
 
 #### Project management. Or rather, my ability to overcomplicate trivial tasks for the sake of "Because I wanted to."
 
-I made the decision to have everything hosted on <a href="https://github.com">GitHub</a>. I wanted to keep all my information in one location. This was basically for my own sanity, but it will make finding information easier. When choosing to do that though, I did not take in to account having to make a blog. And to be honest, this could have easily been put elsewhere and it would not have made organisation more difficult. I was given the ability to build my blog directly into and I took it. If nothing else, this is a fun side project for me to work on during the main project.
-
-Expect to see this blog design change and evolve over the course of the project...
+I made the decision to have everything hosted on [GitHub](https://github.com). I wanted to keep all my information in one location. This was basically for my own sanity, but it will make finding information easier. When choosing to do that though, I did not take in to account having to make a blog. And to be honest, this could have easily been put elsewhere and it would not have made organisation more difficult. I was given the ability to build my blog directly into and I took it. If nothing else, this is a fun side project for me to work on during the main project.
