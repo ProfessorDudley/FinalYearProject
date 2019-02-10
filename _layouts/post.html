@@ -6,21 +6,20 @@ layout: default
 		<p class="head-meta">{{ post.date | date_to_string }}</p>
 		<p class="head-meta float-end post-tag">New Post!</p>
 	</div>
-	<h3>{{ post.title }}</h3>
+	<h3>{{ page.title }}</h3>
 
-	<p>{{ post.content }}</p>
+	<p>{{ content }}</p>
 </article>
 
 <aside class="col-12 col-md-4 col-lg-3 offset-md-1">
-	{% for post in site.posts limit:1 %}
 	<div class="post-information">
 		<h5>Post Information</h5>
 			<ul class="post-meta">
-				<li>{{ post.date | date_to_string }}</li>
+				<li>{{ page.date | date_to_string }}</li>
 				<li>•</li>
-				<li>{{ post.content | remove: '<p>' | remove: '</p>' | number_of_words }} words</li>
+				<li>{{ content | remove: '<p>' | remove: '</p>' | number_of_words }} words</li>
 				<li>•</li>
-				<li>{{  post.content | remove: '<p>' | remove: '</p>' | number_of_words | divided_by: 120 }} minutes</li>
+				<li>{{  content | remove: '<p>' | remove: '</p>' | number_of_words | divided_by: 120 }} minutes</li>
 			</ul>
 
 			<ul class="post-meta">
@@ -28,19 +27,16 @@ layout: default
 					<li class="post-tag">{{ tag }}</li>
 				{% endfor %}
 			</ul>
-		{% endfor%}
 	</div>
 
 	<div class="post-complement">
 		<h3>References</h3>
-		{% for post in site.posts limit:1 %}
       <ul>
-        {% for ref in post.references %}
+        {% for ref in page.references %}
           <li style="display: block;">
             • <a href="/FinalYearProject/{{ ref.link }}">{{ ref.name }}</a>
           </li>
         {% endfor %}
       </ul>
-		{% endfor %}
 	</div>
 </aside>
