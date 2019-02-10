@@ -42,11 +42,11 @@ cover: /FinalYearProject/images/map.jpg
 		<h3><a href="/FinalYearProject/blog">Recent Posts</a></h3>
 		{% for post in site.posts limit:3 %}
 			<div class="posts-list-entry">
-				<h4><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
+				<h4><a href="/FinalYearProject{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
 				<p>
 					{{ post.excerpt }}
 				<br>
-				<a href="{{ post.url }}"> read more...</a>
+				<a href="/FinalYearProject{{ post.url }}"> read more...</a>
 				</p>
 
 				<ul class="post-meta">
