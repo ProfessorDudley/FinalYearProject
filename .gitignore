@@ -76,7 +76,7 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Website Files
+# Website files
 _site/
 .sass-cache/
 .jekyll-cache/
