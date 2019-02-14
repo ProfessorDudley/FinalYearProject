@@ -23,7 +23,6 @@ footer {
   border-top: 1px solid #878787;
 }
 ul {
-  list-style: none;
   padding-left: 0px;
 }
 ul li {
@@ -100,6 +99,7 @@ p {
   float: right;
 }
 .site-navigation ul {
+  list-style: none;
   padding: 0px;
 }
 .site-navigation ul li {
@@ -124,6 +124,7 @@ p {
   float: right;
 }
 .button-navigation ul {
+  list-style: none;
   padding: 0px;
 }
 .button-navigation ul li {
