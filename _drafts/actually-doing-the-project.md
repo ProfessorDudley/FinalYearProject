@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Actually Doing the Project"
-subtitle: ""
+subtitle: "I mean, I probably should right? Right??"
 tags: [Blueprints, Unreal Engine, Level Generation]
 date: 2019-02-10
 
@@ -11,11 +11,16 @@ references:
     link: ""
 ---
 
-#### This week I've actually been doing some work towards the project 🎉.
+#### This week I've actually been doing some work towards the project. 🎉
 
 From the start I knew building a level generation system was going to be a complex and difficult task, but I did not think it would cause so many development issues as it has. I'm currently battling a bug where an array entry isn't removed, even though it should have met the criteria to be removed.
 
-Unreal blueprint embed, caption: Anyone have any ideas?
+<div class="embed">
+<div class="iframe-container">
+<iframe src="https://blueprintue.com/render/ctxfm0zq" scrolling="no"></iframe>
+</div>
+<h5>Anyone have any ideas?</h5>
+</div>
 
 #### So, how did I get there?
 
