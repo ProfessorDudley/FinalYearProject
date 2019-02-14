@@ -25,6 +25,7 @@ footer {
 ul {
   list-style: inside circle !important;
   padding-left: 0px;
+  
 }
 ul li {
   display: inline-block;
