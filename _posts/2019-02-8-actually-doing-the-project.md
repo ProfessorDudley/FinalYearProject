@@ -3,7 +3,7 @@ layout: post
 title: "Actually Doing the Project"
 subtitle: "I mean, I probably should right? Right??"
 tags: [Blueprints, Unreal Engine, Level Generation]
-date: 2019-02-10
+date: 2019-02-08
 
 excerpt: "From the start I knew building a level generation system was going to be a complex and difficult task, but I did not think it would cause so many development issues as it has. I'm currently battling a bug where an array entry isn't removed, even though it should have met the criteria to be removed."
 ---
@@ -42,6 +42,6 @@ Put simply:
     - • If it has a door leading back to our room, mark that direction as **NECESSARY**.
     - • If it does not have a door leading back to our room, mark that direction as **INVALID**.
 
-All of these values are outputted as a Map where the directions are keys, and their status is its value.
+All of these values are outputted as a DoorStatus map where the directions are keys, and their status is its value.
 
 This took some time to implement and get working, but it is a fairly simple construct. The next step to work on is using these values to determine which room should be spawned.
