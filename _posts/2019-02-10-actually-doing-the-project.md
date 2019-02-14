@@ -35,12 +35,12 @@ Now that we have a starting cell, we can begin the drunken man algorithm and ass
 </div>
 
 Put simply:
-• For any given direction around the current cell:
-  • If the adjacent cell would be off the grid, mark that direction as **INVALID**
-  • If the adjacent cell does not contain a room, mark that direction as **OPTIONAL**.
-  • If the adjacent cell is a room:
-    • If it has a door leading back to our room, mark that direction as **NECESSARY**.
-    • If it does not have a door leading back to our room, mark that direction as **INVALID**.
+- • For any given direction around the current cell:
+  - • If the adjacent cell would be off the grid, mark that direction as **INVALID**
+  - • If the adjacent cell does not contain a room, mark that direction as **OPTIONAL**.
+  - • If the adjacent cell is a room:
+    - • If it has a door leading back to our room, mark that direction as **NECESSARY**.
+    - • If it does not have a door leading back to our room, mark that direction as **INVALID**.
 
 All of these values are outputted as a Map where the directions are keys, and their status is its value.
 
