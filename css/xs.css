@@ -23,7 +23,10 @@ footer {
   border-top: 1px solid #878787;
 }
 ul {
+<<<<<<< HEAD
   list-style: circle;
+=======
+>>>>>>> dcca5143336fd40e6ec31e98a0e63ca561733920
   padding-left: 0px;
 }
 ul li {
