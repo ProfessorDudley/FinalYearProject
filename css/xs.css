@@ -260,9 +260,15 @@ p {
    top: 0;
    width: 100%;
 }
-img {
+.iframe-container img {
   width: 100%;
 }
 .embed{
   margin: 2em 0;
+}
+.recent-posts {
+  display: none;
+}
+.recent-posts ul li {
+  display: block;
 }
