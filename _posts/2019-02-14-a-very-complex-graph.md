@@ -37,8 +37,6 @@ Thankfully, [@SketchyNeil](https://twitter.com/SketchyNeil) is an absolute legen
 <h5>His method used a crazy amount of branch nodes and boolean logic.</h5>
 </div>
 
-In the future I want to go back and refactor this. I don't fully understand how this system works, I just know it does. What I'd like to be able to reach is a system that can be weighted for better control. This would be better explained with an example:
-
-<!-- put a video example showing the steps that would lead to a room looping back on itself. -->
+In the future I want to go back and refactor this. I don't fully understand how this system works, I just know it does. What I'd like to end with is a system where the spawning decisions can be weighted to avoid generation errors. As an example, I'd like to avoid having the dungeon loop around on itself, trapping it. For example, a condition that kept track of how many turns the dungeon had made. This would be done to prevent the dungeon from looping in on itself, trapping future rooms.
 
 After refactoring, the code would be cleaner and should be better optimised. I would also understand the system better and hopefully would have a system for weighted outputs. This is the ideal system, but I will be focusing on getting the rest of the core mechanics functional first.
