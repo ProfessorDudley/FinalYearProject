@@ -1,0 +1,14 @@
+---
+layout: default
+title: "#Inspireesonal Quotes"
+subtitle: My favourite quotes from my time at Teesside University
+cover: /images/map.jpg
+---
+
+<article class="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-1 page-content">
+	{% for quote in site.data.quotes %}
+	<h3>“{{ quote.quote }}”</h3>
+	<h4>~ {{ quote.name }}</h4>
+	<br>
+	{% endfor %}
+</article>
