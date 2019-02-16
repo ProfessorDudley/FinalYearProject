@@ -39,8 +39,9 @@ cover: /FinalYearProject/images/map.jpg
 	</div>
 
 	<div class="post-complement">
-		<h3><a href="/FinalYearProject/blog">Recent Posts</a></h3>
-		{% for post in site.posts limit:3 %}
+		<h3><a href="/FinalYearProject/blog">All Posts</a></h3>
+		<div class="post-list">
+		{% for post in site.posts %}
 			<div class="posts-list-entry">
 				<h4><a href="/FinalYearProject{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
 				<p>
@@ -66,5 +67,6 @@ cover: /FinalYearProject/images/map.jpg
 				</ul>
 			</div>
 		{% endfor %}
+		</div>
 	</div>
 </aside>

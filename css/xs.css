@@ -250,6 +250,10 @@ p {
   color: #6692d3;
   border-color: #6692d3;
 }
+.post-list {
+  max-height: 1200px;
+  overflow: auto;
+}
 .iframe-container {
   overflow: hidden;
   padding-top: 56.25%;
