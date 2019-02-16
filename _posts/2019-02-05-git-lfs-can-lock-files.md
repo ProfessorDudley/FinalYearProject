@@ -4,8 +4,6 @@ title: "Unreal Engine and Git-LFS 2.0?"
 subtitle: "Git's bigger brother: Git-LFS 2.0"
 tags: [Unreal Engine, Git, GitHub]
 date: 2019-02-05
-
-excerpt: "I was trying to find out how Git can be used with unreal engine. Git encourages parallel development using a branch based version control system. What this means is everyone who is collaborating on a project have their own local copies of the project, including all the branches. It isn't possible to lock files for editing like in Perforce or Subversion."
 references:
   - name: "Parallel Development"
     link: "https://nvie.com/posts/a-successful-git-branching-model/"

@@ -4,8 +4,6 @@ title: "Starting the Project"
 subtitle: "Oh great, now I'm nervous."
 tags: [GitHub, Project Management, Web Development]
 date: 2019-02-01
-
-excerpt: "Before starting the second semester I already began prototyping ideas for the project. Particularly I looked into how procedurally generated levels would work in Unreal Engine 4 using blueprints."
 references:
   - name: "The Drunkard Walk Algorithm"
     link: "http://pcg.wikidot.com/pcg-algorithm:drunkard-walk"

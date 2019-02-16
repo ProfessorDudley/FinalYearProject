@@ -4,9 +4,6 @@ title: "A Very Complex Graph"
 subtitle: "Thank you Neil for fixing literally everything."
 tags: [Blueprints, Unreal Engine, Level Generation]
 date: 2019-02-14
-
-excerpt: "I've spent the past week working on this nightmare. It has even reached the point where I considered becoming an artist! *Shudders* Dark times... I have been attempting to implement a system for choosing which rooms should be spawned on a given cell. This would use the outputted “DoorStatus” map that I previously made. I figured this would have been fairly straightforward but boy was I wrong. There is a reason why complex programming should be done in C++."
-
 references:
   - name: "@SketchyNeil on Twitter"
     link: "https://twitter.com/SketchyNeil"

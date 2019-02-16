@@ -44,7 +44,7 @@ cover: /FinalYearProject/images/map.jpg
 			<div class="posts-list-entry">
 				<h4><a href="/FinalYearProject{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
 				<p>
-					{{ post.excerpt }}
+					{{ post.content | strip_html | truncatewords: 50 }}
 				<br>
 				<a href="/FinalYearProject{{ post.url }}"> read more...</a>
 				</p>
