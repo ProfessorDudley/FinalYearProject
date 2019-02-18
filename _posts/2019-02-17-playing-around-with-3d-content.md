@@ -23,21 +23,13 @@ references:
 
 I recently recieved an email from Teesside University stating that I had until the 18th of March to upload images of my project to their intranet. This is in preparation for their **ExpoTees** event in May. The 18th of March isn't that far away and I still only really have print strings to show for my project. So I had to make some schedule changes. Now I am making a mock level that is hand built. I can use this to get the project images needed for the event without needing to get much further in development so soon. What I have done so far is blocked out a room. Put some orange boxes here, a gray floor there, drop the hero in the room and splatter some enemies around...
 
-<div class="embed">
-<div class="iframe-container">
 <img src="/FinalYearProject/images/models/SceneBlockout.jpg" alt="">
-</div>
 <h5>Hm. Looks a bit rubbish don't it?</h5>
-</div>
 
 What this meant was I needed art assets. Before starting the project, I had already decided on which asset pack I was going to use. The available free asset packs didn't fit the aesthetic vision that I had, so I had to look at paid options. [The Unreal Marketplace](https://www.unrealengine.com/marketplace) has a large collection of asset packs provided by developers for use in Unreal Engine projects. I found an asset pack by Synty Studios [Synty Studios](https://syntystore.com") - [The Polygon Dungeon Pack](https://www.unrealengine.com/marketplace/polygon-dungeon-pack) which was close enough to my desired aesthetic.
 
-<div class="embed">
-<div class="iframe-container">
 <img src="/FinalYearProject/images/models/SceneArted.jpg" alt="">
-</div>
 <h5>Ohh, looks cool doesn't it? Wouldn't it be cool if it actually existed? <span style="font-style: normal;">🤔</span></h5>
-</div>
 
 #### Well of course I was going to find a way to best present 3D models wasn't I?
 
@@ -52,7 +44,8 @@ Now the intresting bit about this file format is that it can be easily embeded i
 But given I'm not a 3D modeller, there won't be very many instances where I'll need to show off a 3D model. So for the extra time it would take, it would be better for me to spend that time actually working on the project.
 
 #### But I'm still going to include some examples of the assets I'm going to be using.
-
+<div class="ar">
 <a rel="ar" href="/FinalYearProject/models/scene.usdz">
 <img src="/FinalYearProject/images/models/scene.png" alt="">
 </a>
+</div>

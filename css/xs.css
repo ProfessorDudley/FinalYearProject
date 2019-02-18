@@ -279,3 +279,6 @@ p {
 .recent-posts ul li {
   display: block;
 }
+.ar {
+  max-width: 100%;
+}
