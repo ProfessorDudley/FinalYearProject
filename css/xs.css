@@ -279,9 +279,9 @@ p {
 .recent-posts ul li {
   display: block;
 }
-.ar {
+.blog-media {
   max-width: 100%;
 }
-img {
+img .blog-media {
   max-width: 100%;
 }
