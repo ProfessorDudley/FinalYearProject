@@ -25,7 +25,7 @@ I recently recieved an email from Teesside University stating that I had until t
 
 <div class="embed">
 <div class="iframe-container">
-<img src="images/models/SceneBlockout.jpg" alt="">
+<img src="/FinalYearProject/images/models/SceneBlockout.jpg" alt="">
 </div>
 <h5>Hm. Looks a bit rubbish don't it?</h5>
 </div>
@@ -34,7 +34,7 @@ What this meant was I needed art assets. Before starting the project, I had alre
 
 <div class="embed">
 <div class="iframe-container">
-<img src="images/models/SceneArted.jpg" alt="">
+<img src="/FinalYearProject/images/models/SceneArted.jpg" alt="">
 </div>
 <h5>Ohh, looks cool doesn't it? Wouldn't it be cool if it actually existed? <span style="font-style: normal;">🤔</span></h5>
 </div>
@@ -53,6 +53,6 @@ But given I'm not a 3D modeller, there won't be very many instances where I'll n
 
 #### But I'm still going to include some examples of the assets I'm going to be using.
 
-<a rel="ar" href="/models/scene.usdz">
-<img src="/images/models/scene.png" alt="">
+<a rel="ar" href="/FinalYearProject/models/scene.usdz">
+<img src="/FinalYearProject/images/models/scene.png" alt="">
 </a>
