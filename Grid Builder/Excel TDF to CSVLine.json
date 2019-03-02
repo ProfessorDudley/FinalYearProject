@@ -1,0 +1,1179 @@
+[
+   {
+      "form": 0,
+      "name": "",
+      "type": "textarea",
+      "id": "txt1",
+      "elementPos": 2,
+      "namePos": 0,
+      "value": "1\t1\t1\t1\t1\t1\t1\n1\t3\t1\t3\t1\t1\t1\n1\t1\t1\t1\t1\t0\t1\n1\t3\t1\t5\t1\t0\t1\n1\t1\t1\t1\t1\t0\t1\n1\t1\t6\t6\t6\t1\t1\n1\t1\t1\t1\t1\t1\t1\n"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "txtEncoding",
+      "elementPos": 4,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "url",
+      "type": "text",
+      "id": "url",
+      "elementPos": 5,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "chkHeader",
+      "type": "checkbox",
+      "id": "chkHeader",
+      "elementPos": 10,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkHeaderUpper",
+      "elementPos": 11,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkHeaderLower",
+      "elementPos": 12,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtRowLimit",
+      "elementPos": 13,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtSkipLimit",
+      "elementPos": 14,
+      "checked": false,
+      "namePos": 0,
+      "value": "0"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepAuto",
+      "elementPos": 15,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepComma",
+      "elementPos": 16,
+      "checked": false,
+      "namePos": 1,
+      "value": ","
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepSemicolon",
+      "elementPos": 17,
+      "checked": false,
+      "namePos": 2,
+      "value": ";"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepColon",
+      "elementPos": 18,
+      "checked": false,
+      "namePos": 3,
+      "value": ":"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepPipe",
+      "elementPos": 19,
+      "checked": false,
+      "namePos": 4,
+      "value": "|"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepTab",
+      "elementPos": 20,
+      "checked": true,
+      "namePos": 5,
+      "value": "\\t"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepCaret",
+      "elementPos": 21,
+      "checked": false,
+      "namePos": 6,
+      "value": "^"
+   },
+   {
+      "form": 0,
+      "name": "sep",
+      "type": "radio",
+      "id": "sepSpace",
+      "elementPos": 22,
+      "checked": false,
+      "namePos": 7,
+      "value": " "
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkReplaceAccents",
+      "elementPos": 23,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkIgnoreDoubleQuote",
+      "elementPos": 24,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkInputQuote",
+      "elementPos": 25,
+      "checked": false,
+      "namePos": 0,
+      "value": "'"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkDecodeLiterals",
+      "elementPos": 26,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtCond",
+      "elementPos": 28,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "radOutput",
+      "type": "radio",
+      "id": "radNone",
+      "elementPos": 29,
+      "checked": true,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "radOutput",
+      "type": "radio",
+      "id": "radCsv",
+      "elementPos": 30,
+      "checked": false,
+      "namePos": 1,
+      "value": "toCsv()"
+   },
+   {
+      "form": 0,
+      "name": "outsep",
+      "type": "radio",
+      "id": "outSepComma",
+      "elementPos": 31,
+      "checked": true,
+      "namePos": 0,
+      "value": ","
+   },
+   {
+      "form": 0,
+      "name": "outsep",
+      "type": "radio",
+      "id": "outSepSemicolon",
+      "elementPos": 32,
+      "checked": false,
+      "namePos": 1,
+      "value": ";"
+   },
+   {
+      "form": 0,
+      "name": "outsep",
+      "type": "radio",
+      "id": "outSepColon",
+      "elementPos": 33,
+      "checked": false,
+      "namePos": 2,
+      "value": ":"
+   },
+   {
+      "form": 0,
+      "name": "outsep",
+      "type": "radio",
+      "id": "outSepPipe",
+      "elementPos": 34,
+      "checked": false,
+      "namePos": 3,
+      "value": "|"
+   },
+   {
+      "form": 0,
+      "name": "outsep",
+      "type": "radio",
+      "id": "outSepTab",
+      "elementPos": 35,
+      "checked": false,
+      "namePos": 4,
+      "value": " "
+   },
+   {
+      "form": 0,
+      "name": "radOutput",
+      "type": "radio",
+      "id": "radHtml",
+      "elementPos": 36,
+      "checked": false,
+      "namePos": 2,
+      "value": "toHtml()"
+   },
+   {
+      "form": 0,
+      "name": "radOutput",
+      "type": "radio",
+      "id": "radJson",
+      "elementPos": 37,
+      "checked": false,
+      "namePos": 3,
+      "value": "toJson()"
+   },
+   {
+      "form": 0,
+      "name": "radOutput",
+      "type": "radio",
+      "id": "radSql",
+      "elementPos": 38,
+      "checked": false,
+      "namePos": 4,
+      "value": "toSql()"
+   },
+   {
+      "form": 0,
+      "name": "radOutput",
+      "type": "radio",
+      "id": "radXml",
+      "elementPos": 39,
+      "checked": false,
+      "namePos": 5,
+      "value": "toXml()"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 40,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 41,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 42,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 43,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 44,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 45,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "",
+      "elementPos": 46,
+      "checked": false,
+      "namePos": 0,
+      "value": "on"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml1",
+      "elementPos": 47,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr1",
+      "elementPos": 48,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper1",
+      "elementPos": 49,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower1",
+      "elementPos": 50,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper1",
+      "elementPos": 51,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct1",
+      "elementPos": 52,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch1",
+      "elementPos": 53,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals1",
+      "elementPos": 54,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml2",
+      "elementPos": 55,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr2",
+      "elementPos": 56,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper2",
+      "elementPos": 57,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower2",
+      "elementPos": 58,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper2",
+      "elementPos": 59,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct2",
+      "elementPos": 60,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch2",
+      "elementPos": 61,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals2",
+      "elementPos": 62,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml3",
+      "elementPos": 63,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr3",
+      "elementPos": 64,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper3",
+      "elementPos": 65,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower3",
+      "elementPos": 66,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper3",
+      "elementPos": 67,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct3",
+      "elementPos": 68,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch3",
+      "elementPos": 69,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals3",
+      "elementPos": 70,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml4",
+      "elementPos": 71,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr4",
+      "elementPos": 72,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper4",
+      "elementPos": 73,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower4",
+      "elementPos": 74,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper4",
+      "elementPos": 75,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct4",
+      "elementPos": 76,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch4",
+      "elementPos": 77,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals4",
+      "elementPos": 78,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml5",
+      "elementPos": 79,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr5",
+      "elementPos": 80,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper5",
+      "elementPos": 81,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower5",
+      "elementPos": 82,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper5",
+      "elementPos": 83,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct5",
+      "elementPos": 84,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch5",
+      "elementPos": 85,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals5",
+      "elementPos": 86,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml6",
+      "elementPos": 87,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr6",
+      "elementPos": 88,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper6",
+      "elementPos": 89,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower6",
+      "elementPos": 90,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper6",
+      "elementPos": 91,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct6",
+      "elementPos": 92,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch6",
+      "elementPos": 93,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals6",
+      "elementPos": 94,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftriml7",
+      "elementPos": 95,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "ftrimr7",
+      "elementPos": 96,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkupper7",
+      "elementPos": 97,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chklower7",
+      "elementPos": 98,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkProper7",
+      "elementPos": 99,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkpunct7",
+      "elementPos": 100,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkcrunch7",
+      "elementPos": 101,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "fdecimals7",
+      "elementPos": 102,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selType",
+      "elementPos": 103,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "txtHeadPre",
+      "type": "text",
+      "id": "txtHeadPre",
+      "elementPos": 106,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "txtHeadEach",
+      "type": "text",
+      "id": "txtHeadEach",
+      "elementPos": 107,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "txtHeadBetween",
+      "type": "text",
+      "id": "txtHeadBetween",
+      "elementPos": 108,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "txtHeadPost",
+      "type": "text",
+      "id": "txtHeadPost",
+      "elementPos": 109,
+      "checked": false,
+      "namePos": 0,
+      "value": "{br}"
+   },
+   {
+      "form": 0,
+      "name": "txtFieldPre",
+      "type": "text",
+      "id": "txtFieldPre",
+      "elementPos": 110,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "txtFieldEach",
+      "type": "text",
+      "id": "txtFieldEach",
+      "elementPos": 111,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "txtFieldBetween",
+      "type": "text",
+      "id": "txtFieldBetween",
+      "elementPos": 112,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "txtFieldPost",
+      "type": "text",
+      "id": "txtFieldPost",
+      "elementPos": 113,
+      "checked": false,
+      "namePos": 0,
+      "value": "{br}"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtHeader",
+      "elementPos": 114,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "textarea",
+      "id": "txtTemplate",
+      "elementPos": 115,
+      "namePos": 0,
+      "value": "{f1},{f2,{f3},{f4},{f5},{f6},{f7},"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtBetweenTemplate",
+      "elementPos": 116,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "text",
+      "id": "txtFooter",
+      "elementPos": 117,
+      "checked": false,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkIgnoreCase",
+      "elementPos": 118,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld1",
+      "elementPos": 119,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType1",
+      "elementPos": 120,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc1",
+      "elementPos": 121,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld2",
+      "elementPos": 122,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType2",
+      "elementPos": 123,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc2",
+      "elementPos": 124,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortFld3",
+      "elementPos": 125,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortType3",
+      "elementPos": 126,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "select-one",
+      "id": "selSortAsc3",
+      "elementPos": 127,
+      "namePos": 0,
+      "value": ""
+   },
+   {
+      "form": 0,
+      "name": "",
+      "type": "checkbox",
+      "id": "chkHtml",
+      "elementPos": 129,
+      "checked": false,
+      "namePos": 0,
+      "value": "Y"
+   }
+]
