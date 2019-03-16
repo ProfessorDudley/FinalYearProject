@@ -78,6 +78,7 @@ DerivedDataCache/*
 
 # Website files
 _site/
+Models/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
