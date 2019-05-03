@@ -6,7 +6,7 @@
       "id": "txt1",
       "elementPos": 2,
       "namePos": 0,
-      "value": "1\t1\t1\t1\t1\t1\t1\n1\t3\t1\t3\t1\t1\t1\n1\t1\t1\t1\t1\t0\t1\n1\t3\t1\t5\t1\t0\t1\n1\t1\t1\t1\t1\t0\t1\n1\t1\t6\t6\t6\t1\t1\n1\t1\t1\t1\t1\t1\t1\n"
+      "value": "\n"
    },
    {
       "form": 0,
@@ -390,569 +390,9 @@
    {
       "form": 0,
       "name": "",
-      "type": "checkbox",
-      "id": "ftriml1",
-      "elementPos": 47,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftrimr1",
-      "elementPos": 48,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkupper1",
-      "elementPos": 49,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chklower1",
-      "elementPos": 50,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkProper1",
-      "elementPos": 51,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkpunct1",
-      "elementPos": 52,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkcrunch1",
-      "elementPos": 53,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "text",
-      "id": "fdecimals1",
-      "elementPos": 54,
-      "checked": false,
-      "namePos": 0,
-      "value": ""
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftriml2",
-      "elementPos": 55,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftrimr2",
-      "elementPos": 56,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkupper2",
-      "elementPos": 57,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chklower2",
-      "elementPos": 58,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkProper2",
-      "elementPos": 59,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkpunct2",
-      "elementPos": 60,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkcrunch2",
-      "elementPos": 61,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "text",
-      "id": "fdecimals2",
-      "elementPos": 62,
-      "checked": false,
-      "namePos": 0,
-      "value": ""
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftriml3",
-      "elementPos": 63,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftrimr3",
-      "elementPos": 64,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkupper3",
-      "elementPos": 65,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chklower3",
-      "elementPos": 66,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkProper3",
-      "elementPos": 67,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkpunct3",
-      "elementPos": 68,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkcrunch3",
-      "elementPos": 69,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "text",
-      "id": "fdecimals3",
-      "elementPos": 70,
-      "checked": false,
-      "namePos": 0,
-      "value": ""
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftriml4",
-      "elementPos": 71,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftrimr4",
-      "elementPos": 72,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkupper4",
-      "elementPos": 73,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chklower4",
-      "elementPos": 74,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkProper4",
-      "elementPos": 75,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkpunct4",
-      "elementPos": 76,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkcrunch4",
-      "elementPos": 77,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "text",
-      "id": "fdecimals4",
-      "elementPos": 78,
-      "checked": false,
-      "namePos": 0,
-      "value": ""
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftriml5",
-      "elementPos": 79,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftrimr5",
-      "elementPos": 80,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkupper5",
-      "elementPos": 81,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chklower5",
-      "elementPos": 82,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkProper5",
-      "elementPos": 83,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkpunct5",
-      "elementPos": 84,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkcrunch5",
-      "elementPos": 85,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "text",
-      "id": "fdecimals5",
-      "elementPos": 86,
-      "checked": false,
-      "namePos": 0,
-      "value": ""
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftriml6",
-      "elementPos": 87,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftrimr6",
-      "elementPos": 88,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkupper6",
-      "elementPos": 89,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chklower6",
-      "elementPos": 90,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkProper6",
-      "elementPos": 91,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkpunct6",
-      "elementPos": 92,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkcrunch6",
-      "elementPos": 93,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "text",
-      "id": "fdecimals6",
-      "elementPos": 94,
-      "checked": false,
-      "namePos": 0,
-      "value": ""
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftriml7",
-      "elementPos": 95,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "ftrimr7",
-      "elementPos": 96,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkupper7",
-      "elementPos": 97,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chklower7",
-      "elementPos": 98,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkProper7",
-      "elementPos": 99,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkpunct7",
-      "elementPos": 100,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "checkbox",
-      "id": "chkcrunch7",
-      "elementPos": 101,
-      "checked": false,
-      "namePos": 0,
-      "value": "Y"
-   },
-   {
-      "form": 0,
-      "name": "",
-      "type": "text",
-      "id": "fdecimals7",
-      "elementPos": 102,
-      "checked": false,
-      "namePos": 0,
-      "value": ""
-   },
-   {
-      "form": 0,
-      "name": "",
       "type": "select-one",
       "id": "selType",
-      "elementPos": 103,
+      "elementPos": 47,
       "namePos": 0,
       "value": ""
    },
@@ -961,7 +401,7 @@
       "name": "txtHeadPre",
       "type": "text",
       "id": "txtHeadPre",
-      "elementPos": 106,
+      "elementPos": 50,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -971,7 +411,7 @@
       "name": "txtHeadEach",
       "type": "text",
       "id": "txtHeadEach",
-      "elementPos": 107,
+      "elementPos": 51,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -981,7 +421,7 @@
       "name": "txtHeadBetween",
       "type": "text",
       "id": "txtHeadBetween",
-      "elementPos": 108,
+      "elementPos": 52,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -991,7 +431,7 @@
       "name": "txtHeadPost",
       "type": "text",
       "id": "txtHeadPost",
-      "elementPos": 109,
+      "elementPos": 53,
       "checked": false,
       "namePos": 0,
       "value": "{br}"
@@ -1001,7 +441,7 @@
       "name": "txtFieldPre",
       "type": "text",
       "id": "txtFieldPre",
-      "elementPos": 110,
+      "elementPos": 54,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -1011,7 +451,7 @@
       "name": "txtFieldEach",
       "type": "text",
       "id": "txtFieldEach",
-      "elementPos": 111,
+      "elementPos": 55,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -1021,7 +461,7 @@
       "name": "txtFieldBetween",
       "type": "text",
       "id": "txtFieldBetween",
-      "elementPos": 112,
+      "elementPos": 56,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -1031,7 +471,7 @@
       "name": "txtFieldPost",
       "type": "text",
       "id": "txtFieldPost",
-      "elementPos": 113,
+      "elementPos": 57,
       "checked": false,
       "namePos": 0,
       "value": "{br}"
@@ -1041,7 +481,7 @@
       "name": "",
       "type": "text",
       "id": "txtHeader",
-      "elementPos": 114,
+      "elementPos": 58,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -1051,16 +491,16 @@
       "name": "",
       "type": "textarea",
       "id": "txtTemplate",
-      "elementPos": 115,
+      "elementPos": 59,
       "namePos": 0,
-      "value": "{f1},{f2,{f3},{f4},{f5},{f6},{f7},"
+      "value": "{f1},{f2},{f3},{f4},{f5},{f6},{f7},"
    },
    {
       "form": 0,
       "name": "",
       "type": "text",
       "id": "txtBetweenTemplate",
-      "elementPos": 116,
+      "elementPos": 60,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -1070,7 +510,7 @@
       "name": "",
       "type": "text",
       "id": "txtFooter",
-      "elementPos": 117,
+      "elementPos": 61,
       "checked": false,
       "namePos": 0,
       "value": ""
@@ -1080,7 +520,7 @@
       "name": "",
       "type": "checkbox",
       "id": "chkIgnoreCase",
-      "elementPos": 118,
+      "elementPos": 62,
       "checked": false,
       "namePos": 0,
       "value": "Y"
@@ -1090,7 +530,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortFld1",
-      "elementPos": 119,
+      "elementPos": 63,
       "namePos": 0,
       "value": ""
    },
@@ -1099,7 +539,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortType1",
-      "elementPos": 120,
+      "elementPos": 64,
       "namePos": 0,
       "value": ""
    },
@@ -1108,7 +548,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortAsc1",
-      "elementPos": 121,
+      "elementPos": 65,
       "namePos": 0,
       "value": ""
    },
@@ -1117,7 +557,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortFld2",
-      "elementPos": 122,
+      "elementPos": 66,
       "namePos": 0,
       "value": ""
    },
@@ -1126,7 +566,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortType2",
-      "elementPos": 123,
+      "elementPos": 67,
       "namePos": 0,
       "value": ""
    },
@@ -1135,7 +575,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortAsc2",
-      "elementPos": 124,
+      "elementPos": 68,
       "namePos": 0,
       "value": ""
    },
@@ -1144,7 +584,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortFld3",
-      "elementPos": 125,
+      "elementPos": 69,
       "namePos": 0,
       "value": ""
    },
@@ -1153,7 +593,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortType3",
-      "elementPos": 126,
+      "elementPos": 70,
       "namePos": 0,
       "value": ""
    },
@@ -1162,7 +602,7 @@
       "name": "",
       "type": "select-one",
       "id": "selSortAsc3",
-      "elementPos": 127,
+      "elementPos": 71,
       "namePos": 0,
       "value": ""
    },
@@ -1171,7 +611,7 @@
       "name": "",
       "type": "checkbox",
       "id": "chkHtml",
-      "elementPos": 129,
+      "elementPos": 73,
       "checked": false,
       "namePos": 0,
       "value": "Y"
